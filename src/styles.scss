@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import 'bootstrap/dist/css/bootstrap-grid.css';
+
+
+html, body{
+    height: 100%;
+    overflow: auto !important;
+    background: inherit;
+    margin: 0;
+}
+.p-component-overlay {
+    background-color: inherit !important;
+}
+.main-content  {
+    width: calc(100% - 20rem);
+}
+.side-menu {
+    width: 20rem;
+}
